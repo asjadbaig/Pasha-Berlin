@@ -123,3 +123,20 @@ nav ul li:hover{
 #social {
     background-color: #a2b2c1
 }
+.one-fourth i {
+    color: #f0f0f0;
+    font-size: 500%;
+    padding: 13% 0% 4% 0%
+}
+.inner-wrapper {
+    float: left;
+    width: 100%;
+    background-color: #c3d7df;
+}
+article {
+    float: left;
+    margin:0 auto;
+    height: auto;
+    width: 50%;
+    
+}
