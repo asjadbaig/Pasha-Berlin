@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Alegreya+Sans');
-}
+
 * {
     margin:0;
     padding: 0;
     border: 0;
-
 }
+
 body{
     background:white;
     color: #67727A;
@@ -106,16 +106,20 @@ nav ul li:hover{
     margin: 0 auto;
 }
 .one-fourth {
-    width: 100%;
+    width: 25%;
+    float: left;
     text-align: center;
-   float: left;
 
 }
-.one-fourth h3{
-    display:inline;
+#html {
+    background-color: #f1aa90
 }
-.fa-html5:before {
-    bottom: 5px;
-    content: "\f13b";
-    position: relative;
+#css {
+    background-color: #beb9ad
+}
+#seo {
+    background-color: #aadcd2
+}
+#social {
+    background-color: #a2b2c1
 }
