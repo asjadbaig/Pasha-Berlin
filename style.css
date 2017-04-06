@@ -19,6 +19,7 @@ h2 {
     font-weight: 700;
     text-align: center;
     padding-top: 1%;
+   
 
 }
 h3 {
@@ -51,11 +52,11 @@ header {
     margin: 0 auto;
 }
 #logo {
-    margin:20px;
+    margin:10px;
     float:left;
-    width:200px;
-    height: 60px;
-    background: url(images/pasha.png) no-repeat center;
+    width:300px;
+    height: 70px;
+    background: url(images/pasha.png) no-repeat ;
 }
 /*---Start Navigation */
 nav {
@@ -138,5 +139,13 @@ article {
     margin:0 auto;
     height: auto;
     width: 50%;
-    
+
+}
+footer li {
+    display: inline;
+    position: center;
+
+}
+.mybutton {
+    width: 11 px 76px;
 }
