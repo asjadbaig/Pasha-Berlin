@@ -139,10 +139,16 @@ article {
     margin:0 auto;
     height: auto;
     width: 50%;
+    
+    }
+#tablet {
+    background-color: #c3d7df;
+}
+aside {
+    float: right;
+    margin:0 auto;
+    width: 50%;
+    height: auto;
 
 }
-footer li {
-    display: inline;
-    position: center;
-
-}
+/*tablet
