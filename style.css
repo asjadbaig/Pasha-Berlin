@@ -89,19 +89,13 @@ nav ul li{
 
 
 }
-nav:hover ul {
-    color: #F5F5F5;
+nav ul a:hover, .current {
+    color: #C3D70F;
 }
 nav ul li a{
     color: gray;
     text-decoration: none;
     
-}
-nav ul li:hover{
-    color:#C3D70F;
-}
-.current {
-    color:#C3D70F;
 }
 /**This The End of Navigation Style*/
 .banner {
