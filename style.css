@@ -89,6 +89,9 @@ nav ul li{
 
 
 }
+nav:hover ul {
+    color: #F5F5F5;
+}
 nav ul li a{
     color: gray;
     text-decoration: none;
@@ -247,7 +250,7 @@ footer.second p {
     }
     #logo {
         margin: 15px 0 20 -25;
-        background: url(images/truck.png) no-repeat center;
+        background: url(images/pasha.png) no-repeat center;
 
     }
     #menu-icon {
@@ -281,5 +284,25 @@ footer.second p {
     .one-fourth {
         float: left;
         width: 100%;
+    }
+    .one-fourth i {
+        font-size: 350%;
+        padding: 4% 0 1% 0;
+    }
+    article {
+        width: 100%;
+    }
+    aside {
+        width: 100%;
+
+    }
+    .hand-mobile {
+        display: none;
+    }
+    .one-third {
+        width: 100%;
+    }
+    .social i {
+        font-size: 180%;
     }
 }
