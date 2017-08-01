@@ -19,7 +19,7 @@ h2 {
     font-weight: 700;
     text-align: center;
     padding-top: 1%;
-   
+
 
 }
 h3 {
@@ -95,11 +95,11 @@ nav ul a:hover, .current {
 nav ul li a{
     color: gray;
     text-decoration: none;
-    
+
 }
 /**This The End of Navigation Style*/
 .banner {
-    width: 110%;
+    width: 100%;
     background-color: #6991AC;
 }
 .banner-inner {
@@ -139,7 +139,7 @@ article {
     margin:0 auto;
     height: auto;
     width: 50%;
-    
+
     }
 #tablet {
     background-color: #c3d7df;
