@@ -9,11 +9,12 @@ var autoprefixer = require('gulp-autoprefixer');
 gulp.task('serve', ['sass'], function() {
 
   browserSync.init({
-    server: "./"
+    server: "./",
+    open: false
   });
 
-  gulp.watch("sass/*.sass", ['sass']);
-  gulp.watch(["*.html",'./src/client/app/**/*.js' ]).on('change', browserSync.reload);
+  gulp.watch("css/*.sass", ['sass']);
+  gulp.watch(["*.html",'*.js' ]).on('change', browserSync.reload);
 });
 
 // Compile sass into CSS & auto-inject into browsers
